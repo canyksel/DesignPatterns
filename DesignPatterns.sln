@@ -19,11 +19,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiscovSubstitutionPrinciple
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface Segregation Principle", "Interface Segregation Principle", "{2B2B75AF-8C70-42B8-BD66-6DC1FB9B496B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{21BB7515-14B6-499E-900C-B6F98AA34131}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceSegregationPrinciple", "InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{21BB7515-14B6-499E-900C-B6F98AA34131}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependency Inversion Principle", "Dependency Inversion Principle", "{9FC2E3FE-5887-46D7-8597-2B666312878C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrinciple", "DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{13472BB0-34E6-40EF-A9E6-2C6A44D62287}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversionPrinciple", "DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{13472BB0-34E6-40EF-A9E6-2C6A44D62287}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design Patterns", "Design Patterns", "{C39D3122-10B6-4F59-B076-3293F9BD27C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderDesignPattern", "BuilderDesignPattern\BuilderDesignPattern.csproj", "{78A1C07B-6D10-48F7-A06F-7474315761F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder Design Pattern", "Builder Design Pattern", "{AA685CBF-2E05-4491-888F-FEA94247F8F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilder", "FluentBuilder\FluentBuilder.csproj", "{DE06FC80-DCEE-46ED-AE92-33F29E0D8452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepwiseBuilder", "StepwiseBuilder\StepwiseBuilder.csproj", "{FDFBAF7F-EEFC-481F-8C0C-D663E9861603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalBuilder", "FunctionalBuilder\FunctionalBuilder.csproj", "{95599C28-B841-48E2-8D37-381EB0EF51E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +85,38 @@ Global
 		{13472BB0-34E6-40EF-A9E6-2C6A44D62287}.Release|Any CPU.Build.0 = Release|Any CPU
 		{13472BB0-34E6-40EF-A9E6-2C6A44D62287}.Release|x64.ActiveCfg = Release|Any CPU
 		{13472BB0-34E6-40EF-A9E6-2C6A44D62287}.Release|x64.Build.0 = Release|Any CPU
+		{78A1C07B-6D10-48F7-A06F-7474315761F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A1C07B-6D10-48F7-A06F-7474315761F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A1C07B-6D10-48F7-A06F-7474315761F7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{78A1C07B-6D10-48F7-A06F-7474315761F7}.Debug|x64.Build.0 = Debug|Any CPU
+		{78A1C07B-6D10-48F7-A06F-7474315761F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A1C07B-6D10-48F7-A06F-7474315761F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A1C07B-6D10-48F7-A06F-7474315761F7}.Release|x64.ActiveCfg = Release|Any CPU
+		{78A1C07B-6D10-48F7-A06F-7474315761F7}.Release|x64.Build.0 = Release|Any CPU
+		{DE06FC80-DCEE-46ED-AE92-33F29E0D8452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE06FC80-DCEE-46ED-AE92-33F29E0D8452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE06FC80-DCEE-46ED-AE92-33F29E0D8452}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DE06FC80-DCEE-46ED-AE92-33F29E0D8452}.Debug|x64.Build.0 = Debug|Any CPU
+		{DE06FC80-DCEE-46ED-AE92-33F29E0D8452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE06FC80-DCEE-46ED-AE92-33F29E0D8452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE06FC80-DCEE-46ED-AE92-33F29E0D8452}.Release|x64.ActiveCfg = Release|Any CPU
+		{DE06FC80-DCEE-46ED-AE92-33F29E0D8452}.Release|x64.Build.0 = Release|Any CPU
+		{FDFBAF7F-EEFC-481F-8C0C-D663E9861603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFBAF7F-EEFC-481F-8C0C-D663E9861603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFBAF7F-EEFC-481F-8C0C-D663E9861603}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FDFBAF7F-EEFC-481F-8C0C-D663E9861603}.Debug|x64.Build.0 = Debug|Any CPU
+		{FDFBAF7F-EEFC-481F-8C0C-D663E9861603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFBAF7F-EEFC-481F-8C0C-D663E9861603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDFBAF7F-EEFC-481F-8C0C-D663E9861603}.Release|x64.ActiveCfg = Release|Any CPU
+		{FDFBAF7F-EEFC-481F-8C0C-D663E9861603}.Release|x64.Build.0 = Release|Any CPU
+		{95599C28-B841-48E2-8D37-381EB0EF51E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95599C28-B841-48E2-8D37-381EB0EF51E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95599C28-B841-48E2-8D37-381EB0EF51E0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{95599C28-B841-48E2-8D37-381EB0EF51E0}.Debug|x64.Build.0 = Debug|Any CPU
+		{95599C28-B841-48E2-8D37-381EB0EF51E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95599C28-B841-48E2-8D37-381EB0EF51E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95599C28-B841-48E2-8D37-381EB0EF51E0}.Release|x64.ActiveCfg = Release|Any CPU
+		{95599C28-B841-48E2-8D37-381EB0EF51E0}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +132,11 @@ Global
 		{21BB7515-14B6-499E-900C-B6F98AA34131} = {2B2B75AF-8C70-42B8-BD66-6DC1FB9B496B}
 		{9FC2E3FE-5887-46D7-8597-2B666312878C} = {F63C7F88-8647-43FB-B2A5-D49A81A157EC}
 		{13472BB0-34E6-40EF-A9E6-2C6A44D62287} = {9FC2E3FE-5887-46D7-8597-2B666312878C}
+		{78A1C07B-6D10-48F7-A06F-7474315761F7} = {AA685CBF-2E05-4491-888F-FEA94247F8F5}
+		{AA685CBF-2E05-4491-888F-FEA94247F8F5} = {C39D3122-10B6-4F59-B076-3293F9BD27C8}
+		{DE06FC80-DCEE-46ED-AE92-33F29E0D8452} = {AA685CBF-2E05-4491-888F-FEA94247F8F5}
+		{FDFBAF7F-EEFC-481F-8C0C-D663E9861603} = {AA685CBF-2E05-4491-888F-FEA94247F8F5}
+		{95599C28-B841-48E2-8D37-381EB0EF51E0} = {AA685CBF-2E05-4491-888F-FEA94247F8F5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B5FA222A-029D-4383-88EB-FB8ECA8B768A}
